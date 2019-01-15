@@ -26,7 +26,7 @@ def convert(lines):
 			else:
 				for m in s[2:]:
 					allen_word_count += len(m)
-		if name == 'Viki':
+		elif name == 'Viki':
 			if s[2] == '貼圖':
 				viki_sticker_count += 1
 			elif s[2] == '圖片':
